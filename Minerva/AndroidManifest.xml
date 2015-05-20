@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minerva"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".Minerva"
+            android:label="@string/title_activity_minerva" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InventoryManagement"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Camera"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SensorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Information"
+            android:label="@string/title_activity_information" >
+        </activity>
+    </application>	
+
+</manifest>

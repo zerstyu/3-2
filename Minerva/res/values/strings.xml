@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Minerva</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_minerva">Minerva</string>
+    <string name="title_activity_information">Information</string>
+
+</resources>
